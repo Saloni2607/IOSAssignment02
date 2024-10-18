@@ -1,10 +1,3 @@
-//
-//  Product.swift
-//  QuickCash
-//
-//  Created by Rajat Sachdeva on 2024-10-13.
-//
-
 import Foundation
 
 class Product {
@@ -27,10 +20,10 @@ class ProductManager {
     public static var shared: ProductManager = .init()
     
     var products: [Product] = [
-        Product(id: "P001", name: "Coca-Cola", price: 2.49, quantity: 5),
-        Product(id: "P002", name: "Doritos", price: 3.59, quantity: 10),
-        Product(id: "P003", name: "Rasees", price: 1.39, quantity: 15),
-        Product(id: "P004", name: "Skittles", price: 4.69, quantity: 7)
+        Product(id: "P001", name: "Pants", price: 40.99, quantity: 30),
+        Product(id: "P002", name: "Shoes", price: 50.23, quantity: 45),
+        Product(id: "P003", name: "Tshirts", price: 15.45, quantity: 38),
+        Product(id: "P004", name: "Dresses", price: 30.99, quantity: 67)
     ]
     
     func addProduct(_ product: Product) {
